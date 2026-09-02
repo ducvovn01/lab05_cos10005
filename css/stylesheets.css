@@ -27,3 +27,44 @@ footer {
     margin-top: 20px;
 }
 
+nav {
+    background-color: lightgray;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 0.2em 0.6em 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+article {
+    width: auto;
+    height: auto;
+    box-shadow: 3px 3px 3px 2px #797979;
+}
+
+h1, h2 {
+    text-shadow: #aaa 2px 2px 2px;
+}
