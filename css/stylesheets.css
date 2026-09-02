@@ -1,0 +1,29 @@
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+
+#whole-content {
+    display: flex;
+    gap: 20px;
+}
+
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    font-size: 8px;
+    font-style: italic;
+    color: green;
+}
+
+
+footer {
+    margin-top: 20px;
+}
+
